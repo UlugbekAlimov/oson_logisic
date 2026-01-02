@@ -1,0 +1,48 @@
+﻿<header class="sticky top-0 z-20 border-b border-[#0b2b24]/10 bg-[#f4f1e8]/95 backdrop-blur">
+  <div class="border-b border-[#0b2b24]/10 bg-[#0b2b24] px-6 py-2 text-[0.7rem] uppercase tracking-[0.28em] text-[#f4f1e8]/80 md:px-10 lg:px-20">
+    <div class="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+      <div class="flex flex-wrap items-center gap-4">
+        <span class="inline-flex items-center gap-2">
+          <span class="h-2 w-2 rounded-full bg-[#d6c08a]"></span>
+          {{ i18n.t('header.address') }}
+        </span>
+        <a href="mailto:dispatch@logisticcrest.com" class="transition hover:text-white">{{ i18n.t('header.email') }}</a>
+      </div>
+      <a href="tel:+992551680080" class="text-[#d6c08a] transition hover:text-white">{{ i18n.t('header.phone') }}</a>
+    </div>
+  </div>
+  <div class="flex flex-wrap items-center justify-between gap-4 px-6 py-4 md:px-10 lg:px-20">
+    <div class="flex items-center gap-3">
+      <div class="flex h-11 w-11 items-center justify-center rounded-full bg-[#0b2b24] text-sm font-semibold text-[#d6c08a]">OS</div>
+      <div class="text-xs font-semibold tracking-[0.25em] text-[#0b2b24]">Oson Logistic</div>
+    </div>
+    <nav class="flex flex-wrap gap-5 text-sm font-semibold text-[#0b2b24]">
+      <a href="#home" class="transition hover:text-[#b08b4f]">{{ i18n.t('nav.home') }}</a>
+      <a href="#about" class="transition hover:text-[#b08b4f]">{{ i18n.t('nav.about') }}</a>
+      <a href="#services" class="transition hover:text-[#b08b4f]">{{ i18n.t('nav.services') }}</a>
+      <a href="#advantages" class="transition hover:text-[#b08b4f]">{{ i18n.t('nav.advantages') }}</a>
+      <a href="#offer" class="transition hover:text-[#b08b4f]">{{ i18n.t('nav.offer') }}</a>
+      <a href="#contact" class="transition hover:text-[#b08b4f]">{{ i18n.t('nav.contact') }}</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <button
+        type="button"
+        (click)="i18n.setLang('ru')"
+        [class]="i18n.lang() === 'ru'
+          ? 'rounded-full bg-[#0b2b24] px-3 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#f4f1e8]'
+          : 'rounded-full border border-[#0b2b24] px-3 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#0b2b24] transition hover:bg-[#0b2b24] hover:text-[#f4f1e8]'"
+      >
+        RU
+      </button>
+      <button
+        type="button"
+        (click)="i18n.setLang('en')"
+        [class]="i18n.lang() === 'en'
+          ? 'rounded-full bg-[#0b2b24] px-3 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#f4f1e8]'
+          : 'rounded-full border border-[#0b2b24] px-3 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-[#0b2b24] transition hover:bg-[#0b2b24] hover:text-[#f4f1e8]'"
+      >
+        EN
+      </button>
+    </div>
+  </div>
+</header>
