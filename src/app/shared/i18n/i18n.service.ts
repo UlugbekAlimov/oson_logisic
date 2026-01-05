@@ -2,9 +2,9 @@
 
 const translations: Record<'en' | 'ru', Record<string, string>> = {
   en: {
-    'header.address': 'Tajikistan, B. Gafurov District',
-    'header.email': 'dispatch@logisticcrest.com',
-    'header.phone': '+992 551 680 080',
+    'header.address': 'LLC "Oson Nakliyot", Tajikistan, R.Sughd, 735690, B.Gafurov District',
+    'header.email': 'Osonnakliyot@mail.ru',
+    'header.phone': '+992 55 050 8614',
     'nav.home': 'Home',
     'nav.about': 'About Us',
     'nav.services': 'Our Services',
@@ -71,13 +71,13 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'contact.call': 'Call us',
     'contact.email': 'Email',
     'contact.address': 'Address',
-    'contact.addressValue': '1400 Harbor Drive, Suite 32, Seattle, WA 98101',
+    'contact.addressValue': 'LLC "Oson Nakliyot", Tajikistan, R.Sughd, 735690, B.Gafurov District, Yova com, Sartukai Street 3',
     'footer.copy': '(c) 2026 Logistic. All rights reserved.'
   },
   ru: {
-    'header.address': 'Таджикистан, район Б. Гафурова',
-    'header.email': 'dispatch@logisticcrest.com',
-    'header.phone': '+992 551 680 080',
+    'header.address': 'ООО "Осон Нақлиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров',
+    'header.email': 'Osonnakliyot@mail.ru',
+    'header.phone': '+992 55 050 8614',
     'nav.home': 'Главная',
     'nav.about': 'О нас',
     'nav.services': 'Наши услуги',
@@ -144,7 +144,7 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'contact.call': 'Позвоните нам',
     'contact.email': 'Почта',
     'contact.address': 'Адрес',
-    'contact.addressValue': '1400 Harbor Drive, Suite 32, Seattle, WA 98101',
+    'contact.addressValue': 'ООО "Осон Нақлиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров, с/с Ёва, улица Сартукай 3',
     'footer.copy': '(c) 2026 Logistic. Все права защищены.'
   }
 };
