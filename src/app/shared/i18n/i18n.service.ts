@@ -75,7 +75,7 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'footer.copy': '(c) 2026 Logistic. All rights reserved.'
   },
   ru: {
-    'header.address': 'ООО "Осон Нақлиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров',
+    'header.address': 'ООО "Осон Наклиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров',
     'header.email': 'Osonnakliyot@mail.ru',
     'header.phone': '+992 55 050 8614',
     'nav.home': 'Главная',
@@ -144,7 +144,7 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'contact.call': 'Позвоните нам',
     'contact.email': 'Почта',
     'contact.address': 'Адрес',
-    'contact.addressValue': 'ООО "Осон Нақлиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров, с/с Ёва, улица Сартукай 3',
+    'contact.addressValue': 'ООО "Осон Наклиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров, с/с Ёва, улица Сартукай 3',
     'footer.copy': '(c) 2026 Logistic. Все права защищены.'
   }
 };
