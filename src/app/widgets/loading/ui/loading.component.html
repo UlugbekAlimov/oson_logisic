@@ -1,0 +1,59 @@
+<section id="loading" class="px-6 py-16 md:px-10 md:py-20 lg:px-20">
+  <div class="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#b08b4f]">
+        {{ i18n.t('loading.label') }}
+      </p>
+      <h2 class="mt-4 text-3xl font-semibold md:text-4xl">{{ i18n.t('loading.title') }}</h2>
+      <p class="mt-4 text-sm text-[#0b2b24]/70">{{ i18n.t('loading.subtitle') }}</p>
+      <div class="mt-8 grid gap-4 md:grid-cols-3">
+        <article class="rounded-3xl border border-[#0b2b24]/10 bg-white p-5 shadow-md">
+          <h3 class="text-base font-semibold text-[#0b2b24]">{{ i18n.t('loading.feature1.title') }}</h3>
+          <p class="mt-2 text-sm text-[#0b2b24]/70">{{ i18n.t('loading.feature1.desc') }}</p>
+        </article>
+        <article class="rounded-3xl border border-[#0b2b24]/10 bg-white p-5 shadow-md">
+          <h3 class="text-base font-semibold text-[#0b2b24]">{{ i18n.t('loading.feature2.title') }}</h3>
+          <p class="mt-2 text-sm text-[#0b2b24]/70">{{ i18n.t('loading.feature2.desc') }}</p>
+        </article>
+        <article class="rounded-3xl border border-[#0b2b24]/10 bg-white p-5 shadow-md">
+          <h3 class="text-base font-semibold text-[#0b2b24]">{{ i18n.t('loading.feature3.title') }}</h3>
+          <p class="mt-2 text-sm text-[#0b2b24]/70">{{ i18n.t('loading.feature3.desc') }}</p>
+        </article>
+      </div>
+    </div>
+    <div class="rounded-3xl bg-[#0b2b24] p-8 text-[#f4f1e8] shadow-xl">
+      <p class="text-xs font-semibold uppercase tracking-[0.35em] text-[#d6c08a]">
+        {{ i18n.t('loading.panelTitle') }}
+      </p>
+      <div class="mt-6 grid gap-6">
+        <div class="flex gap-4">
+          <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#d6c08a]/20 text-[#d6c08a]">
+            01
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold">{{ i18n.t('loading.step1.title') }}</h3>
+            <p class="text-xs text-[#f4f1e8]/70">{{ i18n.t('loading.step1.desc') }}</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#d6c08a]/20 text-[#d6c08a]">
+            02
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold">{{ i18n.t('loading.step2.title') }}</h3>
+            <p class="text-xs text-[#f4f1e8]/70">{{ i18n.t('loading.step2.desc') }}</p>
+          </div>
+        </div>
+        <div class="flex gap-4">
+          <div class="flex h-10 w-10 items-center justify-center rounded-2xl bg-[#d6c08a]/20 text-[#d6c08a]">
+            03
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold">{{ i18n.t('loading.step3.title') }}</h3>
+            <p class="text-xs text-[#f4f1e8]/70">{{ i18n.t('loading.step3.desc') }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

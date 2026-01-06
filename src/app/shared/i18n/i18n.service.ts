@@ -13,7 +13,8 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'nav.contact': 'Contact',
     'hero.eyebrow': 'International Logistics',
     'hero.title': 'Efficient Logistic Solutions Delivered with Precision',
-    'hero.subtitle': 'We organize cargo transportation across the CIS and worldwide with consistent timing, safety, and transparent tracking.',
+    'hero.subtitle':
+      'We organize cargo transportation across the CIS and worldwide with consistent timing, safety, and transparent tracking.',
     'hero.ctaPrimary': 'Request a Quote',
     'hero.ctaSecondary': 'View Services',
     'hero.metric1': 'On-time delivery',
@@ -27,26 +28,50 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'about.label': 'About Us',
     'about.title': 'Fast. Reliable. Convenient.',
     'about.lead': 'A logistics partner that values punctuality, safety, and clear communication.',
-    'about.text1': 'We know how important it is to receive and send cargo on time. That is why we offer reliable express delivery with strict compliance with deadlines. Our logistics team carefully plans each stage of the route to ensure the safety and accuracy of the delivery.',
-    'about.text2': 'The new tagline reflects our promise to move freight with speed, consistency, and ease for every client.',
+    'about.text1':
+      'We know how important it is to receive and send cargo on time. That is why we offer reliable express delivery with strict compliance with deadlines. Our logistics team carefully plans each stage of the route to ensure the safety and accuracy of the delivery.',
+    'about.text2':
+      'The new tagline reflects our promise to move freight with speed, consistency, and ease for every client.',
     'about.caption': 'Ocean, air, and inland logistics aligned into one seamless delivery flow.',
     'services.label': 'Our Services',
     'services.title': 'Logistics built for every route',
-    'services.subtitle': 'International transportation, customs support, and inland delivery with reliable scheduling.',
+    'services.subtitle':
+      'International transportation, customs support, and inland delivery with reliable scheduling.',
     'services.card1.title': 'Logistics',
     'services.card1.desc': 'Route planning, customs clearance, and real-time control.',
-    'services.card1.more': 'We coordinate multimodal shipping, track milestones, and keep documentation in order for every shipment.',
+    'services.card1.more':
+      'We coordinate multimodal shipping, track milestones, and keep documentation in order for every shipment.',
     'services.card2.title': 'Cargo',
     'services.card2.desc': 'Careful handling, storage, and secure packaging services.',
-    'services.card2.more': 'Temperature control, special packaging, and inspection protocols keep sensitive cargo protected.',
+    'services.card2.more':
+      'Temperature control, special packaging, and inspection protocols keep sensitive cargo protected.',
     'services.card3.title': 'Rail Freight',
     'services.card3.desc': 'Regional rail deliveries with flexible scheduling.',
-    'services.card3.more': 'Dedicated dispatch monitors train movements and adjusts schedules when delays occur.',
+    'services.card3.more':
+      'Dedicated dispatch monitors train movements and adjusts schedules when delays occur.',
     'services.ctaMore': 'Learn more',
     'services.ctaLess': 'Show less',
+    'loading.label': 'Loading & Unloading',
+    'loading.title': 'Loading and unloading services',
+    'loading.subtitle':
+      'Certified crews, safe lifting, and on-site coordination for every shipment.',
+    'loading.feature1.title': 'Forklift handling',
+    'loading.feature1.desc': 'Pallet and mixed cargo handling with trained operators.',
+    'loading.feature2.title': 'Manual handling',
+    'loading.feature2.desc': 'Careful work with fragile and oversized items.',
+    'loading.feature3.title': 'Cargo securing',
+    'loading.feature3.desc': 'Straps, blocking, and protection during transfer.',
+    'loading.panelTitle': 'Process',
+    'loading.step1.title': 'Arrival & check-in',
+    'loading.step1.desc': 'Confirm time slot, inspect documents and vehicle.',
+    'loading.step2.title': 'Load or unload',
+    'loading.step2.desc': 'Work to the plan with strict safety protocols.',
+    'loading.step3.title': 'Secure & sign-off',
+    'loading.step3.desc': 'Fastening and handover confirmation on site.',
     'advantages.label': 'Our Advantages',
     'advantages.title': 'Fast. Reliable. Convenient.',
-    'advantages.subtitle': 'We keep cargo moving on time with safety controls and transparent pricing.',
+    'advantages.subtitle':
+      'We keep cargo moving on time with safety controls and transparent pricing.',
     'advantages.card1.title': 'Fast Delivery',
     'advantages.card1.desc': 'Optimized scheduling keeps critical shipments ahead of timeline.',
     'advantages.card2.title': 'Safety',
@@ -55,7 +80,8 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'advantages.card3.desc': 'Transparent quotes and consistent billing for every service tier.',
     'offer.label': 'What We Offer',
     'offer.title': 'Delivery without borders',
-    'offer.desc': 'We combine strategic planning, compliance expertise, and technology to deliver dependable logistics across markets.',
+    'offer.desc':
+      'We combine strategic planning, compliance expertise, and technology to deliver dependable logistics across markets.',
     'offer.cta': 'Explore Services',
     'offer.item1.title': 'Express Delivery',
     'offer.item1.desc': 'Fast lanes for time-critical cargo with strict deadlines.',
@@ -71,11 +97,13 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'contact.call': 'Call us',
     'contact.email': 'Email',
     'contact.address': 'Address',
-    'contact.addressValue': 'LLC "Oson Nakliyot", Tajikistan, R.Sughd, 735690, B.Gafurov District, Yova com, Sartukai Street 3',
-    'footer.copy': '(c) 2026 Logistic. All rights reserved.'
+    'contact.addressValue':
+      'LLC "Oson Nakliyot", Tajikistan, R.Sughd, 735690, B.Gafurov District, Yova com, Sartukai Street 3',
+    'footer.copy': '(c) 2026 Logistic. All rights reserved.',
   },
   ru: {
-    'header.address': 'ООО "Осон Наклиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров',
+    'header.address':
+      'ООО "Осон Наклиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров',
     'header.email': 'Osonnakliyot@mail.ru',
     'header.phone': '+992 55 050 8614',
     'nav.home': 'Главная',
@@ -86,7 +114,8 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'nav.contact': 'Контакты',
     'hero.eyebrow': 'Международная логистика',
     'hero.title': 'Эффективные логистические решения с точностью',
-    'hero.subtitle': 'Мы организуем перевозки по СНГ и всему миру с надежными сроками, безопасностью и прозрачным отслеживанием.',
+    'hero.subtitle':
+      'Мы организуем перевозки по СНГ и всему миру с надежными сроками, безопасностью и прозрачным отслеживанием.',
     'hero.ctaPrimary': 'Запросить расчет',
     'hero.ctaSecondary': 'Смотреть услуги',
     'hero.metric1': 'Доставка в срок',
@@ -99,24 +128,49 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'hero.card3.desc': 'Персональные координаторы и быстрая реакция команды.',
     'about.label': 'О нас',
     'about.title': 'Быстро. Надежно. Удобно.',
-    'about.lead': 'Логистический партнер, который ценит пунктуальность, безопасность и четкую коммуникацию.',
-    'about.text1': 'Мы знаем, как важно получить и отправить груз вовремя. Поэтому мы предлагаем надежную экспресс-доставку со строгим соблюдением сроков. Наша команда логистов тщательно планирует каждый этап маршрута, чтобы обеспечить безопасность и точность доставки.',
-    'about.text2': 'Новый слоган отражает наше обещание обеспечивать скорость, стабильность и удобство для каждого клиента.',
+    'about.lead':
+      'Логистический партнер, который ценит пунктуальность, безопасность и четкую коммуникацию.',
+    'about.text1':
+      'Мы знаем, как важно получить и отправить груз вовремя. Поэтому мы предлагаем надежную экспресс-доставку со строгим соблюдением сроков. Наша команда логистов тщательно планирует каждый этап маршрута, чтобы обеспечить безопасность и точность доставки.',
+    'about.text2':
+      'Новый слоган отражает наше обещание обеспечивать скорость, стабильность и удобство для каждого клиента.',
     'about.caption': 'Морская, авиа и наземная логистика объединены в единый поток доставки.',
     'services.label': 'Наши услуги',
     'services.title': 'Логистика для каждого маршрута',
-    'services.subtitle': 'Международные перевозки, таможенное сопровождение и доставка по регионам с надежными сроками.',
+    'services.subtitle':
+      'Международные перевозки, таможенное сопровождение и доставка по регионам с надежными сроками.',
     'services.card1.title': 'Логистика',
-    'services.card1.desc': 'Планирование маршрутов, таможенное оформление и контроль в реальном времени.',
-    'services.card1.more': 'Координируем мультимодальные перевозки, отслеживаем этапы и ведем документацию по каждому грузу.',
+    'services.card1.desc':
+      'Планирование маршрутов, таможенное оформление и контроль в реальном времени.',
+    'services.card1.more':
+      'Координируем мультимодальные перевозки, отслеживаем этапы и ведем документацию по каждому грузу.',
     'services.card2.title': 'Груз',
     'services.card2.desc': 'Аккуратная обработка, хранение и безопасная упаковка.',
-    'services.card2.more': 'Температурный контроль, специальная упаковка и инспекции защищают чувствительные грузы.',
+    'services.card2.more':
+      'Температурный контроль, специальная упаковка и инспекции защищают чувствительные грузы.',
     'services.card3.title': 'Железнодорожные перевозки',
     'services.card3.desc': 'Региональные доставки по железной дороге с гибким графиком.',
-    'services.card3.more': 'Диспетчерская команда следит за движением поездов и корректирует график при задержках.',
+    'services.card3.more':
+      'Диспетчерская команда следит за движением поездов и корректирует график при задержках.',
     'services.ctaMore': 'Подробнее',
     'services.ctaLess': 'Свернуть',
+    'loading.label': 'Погрузка и разгрузка',
+    'loading.title': 'Погрузки и загрузки услуг',
+    'loading.subtitle':
+      'Сертифицированные бригады, безопасный подъем и координация на площадке.',
+    'loading.feature1.title': 'Погрузка паллет',
+    'loading.feature1.desc': 'Работа с паллетами и смешанным грузом погрузчиком.',
+    'loading.feature2.title': 'Ручная обработка',
+    'loading.feature2.desc': 'Аккуратная работа с хрупкими и негабаритными позициями.',
+    'loading.feature3.title': 'Крепление груза',
+    'loading.feature3.desc': 'Стяжки, прокладки и защита от смещения при перегрузе.',
+    'loading.panelTitle': 'Как работаем',
+    'loading.step1.title': 'Прибытие и проверка',
+    'loading.step1.desc': 'Согласуем окно, проверяем документы и транспорт.',
+    'loading.step2.title': 'Погрузка или разгрузка',
+    'loading.step2.desc': 'Работаем по схеме и соблюдаем технику безопасности.',
+    'loading.step3.title': 'Фиксация и сдача',
+    'loading.step3.desc': 'Крепим груз и фиксируем результат на площадке.',
     'advantages.label': 'Наши преимущества',
     'advantages.title': 'Быстро. Надежно. Удобно.',
     'advantages.subtitle': 'Мы доставляем вовремя, соблюдая безопасность и прозрачные условия.',
@@ -128,7 +182,8 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'advantages.card3.desc': 'Прозрачные расчеты и стабильные тарифы по услугам.',
     'offer.label': 'Что мы предлагаем',
     'offer.title': 'Доставка без границ',
-    'offer.desc': 'Мы объединяем стратегическое планирование, экспертизу и технологии для надежной логистики.',
+    'offer.desc':
+      'Мы объединяем стратегическое планирование, экспертизу и технологии для надежной логистики.',
     'offer.cta': 'Посмотреть услуги',
     'offer.item1.title': 'Экспресс-доставка',
     'offer.item1.desc': 'Быстрые маршруты для срочных грузов со строгими сроками.',
@@ -144,9 +199,10 @@ const translations: Record<'en' | 'ru', Record<string, string>> = {
     'contact.call': 'Позвоните нам',
     'contact.email': 'Почта',
     'contact.address': 'Адрес',
-    'contact.addressValue': 'ООО "Осон Наклиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров, с/с Ёва, улица Сартукай 3',
-    'footer.copy': '(c) 2026 Logistic. Все права защищены.'
-  }
+    'contact.addressValue':
+      'ООО "Осон Наклиёт", 735690, Республика Таджикистан, Согдийская область, Гафуров, с/с Ёва, улица Сартукай 3',
+    'footer.copy': '(c) 2026 Logistic. Все права защищены.',
+  },
 };
 
 @Injectable({ providedIn: 'root' })

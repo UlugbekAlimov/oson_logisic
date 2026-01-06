@@ -5,6 +5,7 @@ import { ContactComponent } from '../../../widgets/contact/ui/contact.component'
 import { FooterComponent } from '../../../widgets/footer/ui/footer.component';
 import { HeaderComponent } from '../../../widgets/header/ui/header.component';
 import { HeroComponent } from '../../../widgets/hero/ui/hero.component';
+import { LoadingComponent } from '../../../widgets/loading/ui/loading.component';
 import { OfferComponent } from '../../../widgets/offer/ui/offer.component';
 import { ServicesComponent } from '../../../widgets/services/ui/services.component';
 
@@ -16,6 +17,7 @@ import { ServicesComponent } from '../../../widgets/services/ui/services.compone
     HeroComponent,
     AboutComponent,
     ServicesComponent,
+    LoadingComponent,
     AdvantagesComponent,
     OfferComponent,
     ContactComponent,
