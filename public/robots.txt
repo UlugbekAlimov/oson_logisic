@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://osonnakliyot.com/sitemap.xml
